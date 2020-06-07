@@ -12,7 +12,7 @@ public class TestController {
     @ResponseBody
     public String helle(){
         LogUtils.logInfo("hello");
-        LogUtils.logInfo("修改测试提交GitHub");
+        LogUtils.logInfo(" 修改测试提交GitHub");
         return "Hello ！！！";
     }
 
