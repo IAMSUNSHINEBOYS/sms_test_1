@@ -13,6 +13,7 @@ public class TestController {
     public String helle(){
         LogUtils.logInfo("hello");
         LogUtils.logInfo(" 修改测试提交GitHub");
+        LogUtils.logInfo(" 测试用户提交代码GitHub");
         return "Hello ！！！";
     }
 
