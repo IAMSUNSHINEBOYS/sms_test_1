@@ -1,0 +1,15 @@
+2019-10-10 15:06:03.841  INFO 15824 --- [main] com.cn.alen.SmsTest1Application          : Starting SmsTest1Application on DESKTOP-QL9E4KS with PID 15824 (D:\project\ideaworkspace\sms_test_1\target\classes started by LIKAI in D:\project\ideaworkspace\sms_test_1)
+2019-10-10 15:06:03.846  INFO 15824 --- [main] com.cn.alen.SmsTest1Application          : No active profile set, falling back to default profiles: default
+2019-10-10 15:06:05.035  INFO 15824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2019-10-10 15:06:05.057  INFO 15824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-10 15:06:05.058  INFO 15824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-10 15:06:05.145  INFO 15824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-10 15:06:05.145  INFO 15824 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1244 ms
+2019-10-10 15:06:05.375  INFO 15824 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 15:06:05.567  INFO 15824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-10 15:06:05.572  INFO 15824 --- [main] com.cn.alen.SmsTest1Application          : Started SmsTest1Application in 2.522 seconds (JVM running for 4.12)
+2019-10-10 15:06:05.621  INFO 15824 --- [http-nio-8888-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-10 15:06:05.622  INFO 15824 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-10 15:06:05.627  INFO 15824 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-10-10 15:06:14.269  INFO 15824 --- [http-nio-8888-exec-4] com.cn.alen.controller.SMSController     : receiver:appId=shiwuId appKey=shiwuKey
+2019-10-10 15:06:27.993  INFO 15824 --- [http-nio-8888-exec-4] com.cn.alen.controller.SMSController     : 此处测试获取发送渠道接口null
